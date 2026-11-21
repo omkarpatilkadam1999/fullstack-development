@@ -1,0 +1,98 @@
+
+a{
+    text-decoration: none;
+    
+}
+.contact-header {
+  background-color: #aebfd9; 
+}
+
+.contact-body h4 {
+  margin-bottom: 20px;
+}
+
+.contact-body ul {
+  line-height: 2;
+}
+
+#hoverclass:hover {
+  color: rgb(212, 131, 17);
+  background-color: rgb(91, 113, 178);
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(221, 157, 6) !important;
+}
+
+.map-placeholder {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .map-placeholder {
+    height: 150px;
+  }
+}
+
+
+.info-section {
+  background: linear-gradient(to right, #f0f4ff, #e6f7ff);
+  padding: 60px 0;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #0d6efd;
+}
+
+.section-subtitle {
+  color: #555;
+  font-size: 1rem;
+}
+
+
+.helpblock {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.helpblock:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.helpblock h4 {
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+
+.card-body .btn {
+  padding: 6px 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.card {
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}

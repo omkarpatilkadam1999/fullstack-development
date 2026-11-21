@@ -1,0 +1,58 @@
+
+body {
+  background: #e8f0fe;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  color: #003366;
+}
+
+.card {
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+#hoverclass:hover {
+  color: rgb(249, 174, 12);
+  background-color: rgb(91, 113, 178);
+}
+
+#headerid {
+  height: 80px;
+  background-color: #D6E6FF;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(221, 157, 6) !important;
+}
+
+
+.card-body .btn {
+  padding: 6px 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.card {
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
