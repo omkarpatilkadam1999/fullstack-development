@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+}
+
+
+#header {
+  width: 100%;
+  background-color:cadetblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-around; */
+  position: fixed; 
+  top: 0;
+  /* z-index: 1000; */
+  padding: 10px;
+}
+
+i {
+  color: white;
+  font-size: large;
+}
+
+a {
+  color: rgb(245, 166, 10);
+  font-size: 18px;
+  text-decoration: none;
+  border: 2px solid cadetblue;
+  padding: 6px 10px;
+  margin: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+select,
+input,
+button {
+  margin: 5px -1px;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  background-color: rgb(236, 157, 12);
+  color: black;
+}
+
+button:hover {
+  border: 2px solid white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30%;
+}
+
+#image1 {
+  background-image: url("/images/nature.avif");
+}
+
+#image2 {
+  background-image: url("/images/bird.avif");
+  border-radius: 40%;
+}
+
+.text-box {
+  width: 300px;
+  height: 300px;
+  overflow: auto;
+  line-height: 1.6;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+}
+
+#outerdiv {
+  width: 300px;
+  height: 300px;
+  background-image: url("/images/strawberry.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 80%;
+  position: relative;
+}
+
+#innerdiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 300px;
+  border: 10px solid black;
+  border-top: 10px solid cadetblue;
+  border-radius: 50%;
+  animation: image1Animation 2s linear infinite;
+}
+
+@keyframes image1Animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 1000px;
+  margin: 50px auto;
+  font-size: 14px;
+}
+
+caption {
+  font-size: 30px;
+  margin-bottom:10px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: cadetblue;
+}
+
+footer {
+  background-color:cadetblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top:50px;
+  font-size: medium;
+}
+
+/* Responsive for tablets and smaller */
+/* 
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  a,
+  select,
+  input,
+  button {
+    width: 90%;
+    text-align: center;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-box,
+  .image-box,
+  #outerdiv,
+  #innerdiv {
+    width: 90%;
+    height: auto;
+  }
+
+  table {
+    font-size: 12px;
+    width: 100%;
+  }
+} */
