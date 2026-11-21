@@ -1,0 +1,116 @@
+
+.container {
+  max-width: 1320px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.tittle {
+  text-align: center;
+  color: #0d6efd;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+}
+
+.formbox {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.formbox label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.formbox input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #084298;
+}
+
+.data-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+}
+
+.databox h3 {
+  color: #198754;
+  margin-bottom: 10px;
+}
+
+.emptybox {
+  color: #777;
+}
+
+.customtable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customtable thead {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+}
+
+.customtable th,
+.customtable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.customtable tr:hover {
+  background-color: #e9f2ff;
+  transition: 0.3s;
+}
+
+.customtable th {
+  font-weight: bold;
+}
+
+.customtable tr button{
+    color:white;
+    background-color: red;
+    margin: 15px;
+}

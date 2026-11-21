@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:aquamarine ;
+}
+h1{
+    text-align: center;
+
+}
+.form{
+   width: 1170px;
+   margin: auto;
+   display: flex;
+   gap: 20px;
+}
+.form input{
+    width: 70%;;
+    margin: auto;
+    height: 40px;
+}
+.form button{
+    width: 20%;
+    cursor: pointer;
+    height: 45px;
+}
+.cancel{
+    cursor: pointer;
+}
+
+.uldiv{
+    width: 1100px;
+    margin: auto;
+}
+.uldiv ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.uldiv ul li{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+    padding: 10px;
+}
+
+.uldiv ul li span{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.completetask{
+    background-color: yellow !important;
+    color: red !important;
+    text-decoration: line-through !important;
+}
